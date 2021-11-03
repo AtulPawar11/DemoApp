@@ -30,7 +30,7 @@ const Content = () => {
           </View>
         </View>
         <Text style={styles.description}>{`Description: ${params.description}`}</Text>
-        <Text style={styles.description}>{`Language: ${params.language}`}</Text>
+        {params.language && <Text style={styles.description}>{`Language: ${params.language}`}</Text>}
         {params.license && <Text style={styles.description}>{`License: ${params.license.name}`}</Text>}
         <Text style={styles.description}>{`Open Issues: ${params.open_issues}`}</Text>
         <TouchableOpacity

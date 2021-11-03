@@ -25,7 +25,7 @@ const Content = () => {
    //...Getting data based on user search
    const getSearchResult = async (keyword) => {
     try {
-      dispatch(getRepoList(keyword));
+      dispatch(getRepoList(keyword !== '' ? keyword : 'query'));
     } catch (error) {
       console.log(error);
     }
@@ -43,7 +43,7 @@ const Content = () => {
       }}>
       <View style={styles.listItem}>
         <Text style={styles.heading}>{item.full_name}</Text>
-        <Text style={styles.subHeading}> {`Language: ${item.language}`}</Text>
+        {item.language && <Text style={styles.subHeading}> {`Language: ${item.language}`}</Text>}
       </View>
     </TouchableOpacity>
   );
