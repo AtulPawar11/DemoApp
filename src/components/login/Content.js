@@ -38,7 +38,7 @@ const Content = () => {
       <View style={styles.inputView}>
         <TextInput
           style={styles.textInput}
-          placeholder="Email."
+          placeholder="Email"
           placeholderTextColor="#003f5c"
           onChangeText={(email) => setEmail(email)}
           value={email}
