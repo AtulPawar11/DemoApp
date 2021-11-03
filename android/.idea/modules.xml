@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DemoApp.iml" filepath="$PROJECT_DIR$/.idea/modules/DemoApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DemoApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DemoApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/422629785/DemoApp.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/422629785/DemoApp.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1223301182/DemoApp.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1223301182/DemoApp.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-845565350/DemoApp.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-845565350/DemoApp.react-native-screens.iml" />
+    </modules>
+  </component>
+</project>
